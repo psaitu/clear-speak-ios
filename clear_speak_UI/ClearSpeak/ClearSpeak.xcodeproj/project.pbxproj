@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921FB7182259729400D4C35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7172259729400D4C35D /* AppDelegate.swift */; };
+		921FB71A2259729400D4C35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7192259729400D4C35D /* ViewController.swift */; };
+		921FB71D2259729400D4C35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921FB71B2259729400D4C35D /* Main.storyboard */; };
+		921FB71F2259729900D4C35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921FB71E2259729900D4C35D /* Assets.xcassets */; };
+		921FB7222259729900D4C35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921FB7202259729900D4C35D /* LaunchScreen.storyboard */; };
+		921FB72D2259729A00D4C35D /* ClearSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB72C2259729A00D4C35D /* ClearSpeakTests.swift */; };
+		921FB7382259729A00D4C35D /* ClearSpeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7372259729A00D4C35D /* ClearSpeakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921FB7292259729A00D4C35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921FB70C2259729400D4C35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921FB7132259729400D4C35D;
+			remoteInfo = ClearSpeak;
+		};
+		921FB7342259729A00D4C35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921FB70C2259729400D4C35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921FB7132259729400D4C35D;
+			remoteInfo = ClearSpeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921FB7142259729400D4C35D /* ClearSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921FB7172259729400D4C35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		921FB7192259729400D4C35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		921FB71C2259729400D4C35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921FB71E2259729900D4C35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921FB7212259729900D4C35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921FB7232259729900D4C35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921FB7282259729A00D4C35D /* ClearSpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearSpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921FB72C2259729A00D4C35D /* ClearSpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearSpeakTests.swift; sourceTree = "<group>"; };
+		921FB72E2259729A00D4C35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921FB7332259729A00D4C35D /* ClearSpeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearSpeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921FB7372259729A00D4C35D /* ClearSpeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearSpeakUITests.swift; sourceTree = "<group>"; };
+		921FB7392259729A00D4C35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921FB7112259729400D4C35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB7252259729A00D4C35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB7302259729A00D4C35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921FB70B2259729400D4C35D = {
+			isa = PBXGroup;
+			children = (
+				921FB7162259729400D4C35D /* ClearSpeak */,
+				921FB72B2259729A00D4C35D /* ClearSpeakTests */,
+				921FB7362259729A00D4C35D /* ClearSpeakUITests */,
+				921FB7152259729400D4C35D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921FB7152259729400D4C35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921FB7142259729400D4C35D /* ClearSpeak.app */,
+				921FB7282259729A00D4C35D /* ClearSpeakTests.xctest */,
+				921FB7332259729A00D4C35D /* ClearSpeakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921FB7162259729400D4C35D /* ClearSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				921FB7172259729400D4C35D /* AppDelegate.swift */,
+				921FB7192259729400D4C35D /* ViewController.swift */,
+				921FB71B2259729400D4C35D /* Main.storyboard */,
+				921FB71E2259729900D4C35D /* Assets.xcassets */,
+				921FB7202259729900D4C35D /* LaunchScreen.storyboard */,
+				921FB7232259729900D4C35D /* Info.plist */,
+			);
+			path = ClearSpeak;
+			sourceTree = "<group>";
+		};
+		921FB72B2259729A00D4C35D /* ClearSpeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				921FB72C2259729A00D4C35D /* ClearSpeakTests.swift */,
+				921FB72E2259729A00D4C35D /* Info.plist */,
+			);
+			path = ClearSpeakTests;
+			sourceTree = "<group>";
+		};
+		921FB7362259729A00D4C35D /* ClearSpeakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				921FB7372259729A00D4C35D /* ClearSpeakUITests.swift */,
+				921FB7392259729A00D4C35D /* Info.plist */,
+			);
+			path = ClearSpeakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921FB7132259729400D4C35D /* ClearSpeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921FB73C2259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeak" */;
+			buildPhases = (
+				921FB7102259729400D4C35D /* Sources */,
+				921FB7112259729400D4C35D /* Frameworks */,
+				921FB7122259729400D4C35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearSpeak;
+			productName = ClearSpeak;
+			productReference = 921FB7142259729400D4C35D /* ClearSpeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921FB7272259729A00D4C35D /* ClearSpeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921FB73F2259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeakTests" */;
+			buildPhases = (
+				921FB7242259729A00D4C35D /* Sources */,
+				921FB7252259729A00D4C35D /* Frameworks */,
+				921FB7262259729A00D4C35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921FB72A2259729A00D4C35D /* PBXTargetDependency */,
+			);
+			name = ClearSpeakTests;
+			productName = ClearSpeakTests;
+			productReference = 921FB7282259729A00D4C35D /* ClearSpeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921FB7322259729A00D4C35D /* ClearSpeakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921FB7422259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeakUITests" */;
+			buildPhases = (
+				921FB72F2259729A00D4C35D /* Sources */,
+				921FB7302259729A00D4C35D /* Frameworks */,
+				921FB7312259729A00D4C35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921FB7352259729A00D4C35D /* PBXTargetDependency */,
+			);
+			name = ClearSpeakUITests;
+			productName = ClearSpeakUITests;
+			productReference = 921FB7332259729A00D4C35D /* ClearSpeakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921FB70C2259729400D4C35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = daniel.sun;
+				TargetAttributes = {
+					921FB7132259729400D4C35D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					921FB7272259729A00D4C35D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 921FB7132259729400D4C35D;
+					};
+					921FB7322259729A00D4C35D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 921FB7132259729400D4C35D;
+					};
+				};
+			};
+			buildConfigurationList = 921FB70F2259729400D4C35D /* Build configuration list for PBXProject "ClearSpeak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921FB70B2259729400D4C35D;
+			productRefGroup = 921FB7152259729400D4C35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921FB7132259729400D4C35D /* ClearSpeak */,
+				921FB7272259729A00D4C35D /* ClearSpeakTests */,
+				921FB7322259729A00D4C35D /* ClearSpeakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921FB7122259729400D4C35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921FB7222259729900D4C35D /* LaunchScreen.storyboard in Resources */,
+				921FB71F2259729900D4C35D /* Assets.xcassets in Resources */,
+				921FB71D2259729400D4C35D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB7262259729A00D4C35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB7312259729A00D4C35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921FB7102259729400D4C35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921FB71A2259729400D4C35D /* ViewController.swift in Sources */,
+				921FB7182259729400D4C35D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB7242259729A00D4C35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921FB72D2259729A00D4C35D /* ClearSpeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921FB72F2259729A00D4C35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921FB7382259729A00D4C35D /* ClearSpeakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921FB72A2259729A00D4C35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921FB7132259729400D4C35D /* ClearSpeak */;
+			targetProxy = 921FB7292259729A00D4C35D /* PBXContainerItemProxy */;
+		};
+		921FB7352259729A00D4C35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921FB7132259729400D4C35D /* ClearSpeak */;
+			targetProxy = 921FB7342259729A00D4C35D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921FB71B2259729400D4C35D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921FB71C2259729400D4C35D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		921FB7202259729900D4C35D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921FB7212259729900D4C35D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921FB73A2259729A00D4C35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		921FB73B2259729A00D4C35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921FB73D2259729A00D4C35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		921FB73E2259729A00D4C35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		921FB7402259729A00D4C35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearSpeak.app/ClearSpeak";
+			};
+			name = Debug;
+		};
+		921FB7412259729A00D4C35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearSpeak.app/ClearSpeak";
+			};
+			name = Release;
+		};
+		921FB7432259729A00D4C35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearSpeak;
+			};
+			name = Debug;
+		};
+		921FB7442259729A00D4C35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClearSpeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.sun.ClearSpeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearSpeak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921FB70F2259729400D4C35D /* Build configuration list for PBXProject "ClearSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921FB73A2259729A00D4C35D /* Debug */,
+				921FB73B2259729A00D4C35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921FB73C2259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921FB73D2259729A00D4C35D /* Debug */,
+				921FB73E2259729A00D4C35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921FB73F2259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921FB7402259729A00D4C35D /* Debug */,
+				921FB7412259729A00D4C35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921FB7422259729A00D4C35D /* Build configuration list for PBXNativeTarget "ClearSpeakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921FB7432259729A00D4C35D /* Debug */,
+				921FB7442259729A00D4C35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921FB70C2259729400D4C35D /* Project object */;
+}
