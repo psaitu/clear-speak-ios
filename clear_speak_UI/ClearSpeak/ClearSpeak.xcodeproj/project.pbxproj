@@ -14,6 +14,10 @@
 		921FB7222259729900D4C35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921FB7202259729900D4C35D /* LaunchScreen.storyboard */; };
 		921FB72D2259729A00D4C35D /* ClearSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB72C2259729A00D4C35D /* ClearSpeakTests.swift */; };
 		921FB7382259729A00D4C35D /* ClearSpeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7372259729A00D4C35D /* ClearSpeakUITests.swift */; };
+		921FB7462259919500D4C35D /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7452259919500D4C35D /* MainPageViewController.swift */; };
+		921FB7482259922000D4C35D /* NewAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB7472259922000D4C35D /* NewAnalysisViewController.swift */; };
+		921FB74A225992C300D4C35D /* NewPitchDeckScriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB749225992C300D4C35D /* NewPitchDeckScriptViewController.swift */; };
+		921FB74C225992E200D4C35D /* NewPitchDeckRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FB74B225992E200D4C35D /* NewPitchDeckRecordingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		921FB7332259729A00D4C35D /* ClearSpeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearSpeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921FB7372259729A00D4C35D /* ClearSpeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearSpeakUITests.swift; sourceTree = "<group>"; };
 		921FB7392259729A00D4C35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921FB7452259919500D4C35D /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		921FB7472259922000D4C35D /* NewAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnalysisViewController.swift; sourceTree = "<group>"; };
+		921FB749225992C300D4C35D /* NewPitchDeckScriptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPitchDeckScriptViewController.swift; sourceTree = "<group>"; };
+		921FB74B225992E200D4C35D /* NewPitchDeckRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPitchDeckRecordingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				921FB7172259729400D4C35D /* AppDelegate.swift */,
 				921FB7192259729400D4C35D /* ViewController.swift */,
 				921FB71B2259729400D4C35D /* Main.storyboard */,
+				921FB749225992C300D4C35D /* NewPitchDeckScriptViewController.swift */,
+				921FB74B225992E200D4C35D /* NewPitchDeckRecordingViewController.swift */,
+				921FB7472259922000D4C35D /* NewAnalysisViewController.swift */,
 				921FB71E2259729900D4C35D /* Assets.xcassets */,
 				921FB7202259729900D4C35D /* LaunchScreen.storyboard */,
 				921FB7232259729900D4C35D /* Info.plist */,
+				921FB7452259919500D4C35D /* MainPageViewController.swift */,
 			);
 			path = ClearSpeak;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921FB74A225992C300D4C35D /* NewPitchDeckScriptViewController.swift in Sources */,
+				921FB74C225992E200D4C35D /* NewPitchDeckRecordingViewController.swift in Sources */,
 				921FB71A2259729400D4C35D /* ViewController.swift in Sources */,
+				921FB7462259919500D4C35D /* MainPageViewController.swift in Sources */,
 				921FB7182259729400D4C35D /* AppDelegate.swift in Sources */,
+				921FB7482259922000D4C35D /* NewAnalysisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
