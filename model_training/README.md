@@ -1,5 +1,5 @@
 # Getting Started with DeepSpeech
-Prerequisites:
+## Prerequisites:
 1. Ensure that you have the latest version of python3 installed.
 ```
 brew install python3
