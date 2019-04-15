@@ -10,10 +10,18 @@ import UIKit
 
 class NewPitchDeckRecordingViewController: UIViewController {
 
+    @IBOutlet weak var startStopBtn: UIButton!
+    @IBOutlet weak var listenBtn: UIButton!
+    @IBOutlet weak var redoBtn: UIButton!
+    @IBOutlet weak var analyzeBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        startStopBtn.applyDesign()
+        listenBtn.applyDesign()
+        redoBtn.applyDesign()
+        analyzeBtn.applyDesign()
     }
     
 

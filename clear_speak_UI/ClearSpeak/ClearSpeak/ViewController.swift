@@ -14,18 +14,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        signInBtn.backgroundColor = UIColor.gray
-        signInBtn.layer.cornerRadius = 7
-        signInBtn.setTitleColor(UIColor.white, for: .normal)
-        
-        signInBtn.layer.shadowColor = UIColor.gray.cgColor
-        signInBtn.layer.shadowRadius = 6
-        signInBtn.layer.shadowOpacity = 0.5
-        signInBtn.layer.shadowOffset = CGSize(width: 0, height: 0)
-        
-        
+        signInBtn.applyDesign()
     }
-
-
 }
 
+extension UIButton{
+    func applyDesign(){
+        self.backgroundColor = UIColor.white
+        self.layer.cornerRadius = 10
+        self.setTitleColor(UIColor.black, for: .normal)
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowRadius = 6
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowOffset = CGSize(width: 0, height: 0)
+        self.layer.borderWidth = 0.8
+    }
+}

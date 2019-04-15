@@ -10,10 +10,12 @@ import UIKit
 
 class NewPitchDeckScriptViewController: UIViewController {
 
+    @IBOutlet weak var proceedBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        proceedBtn.applyDesign()
     }
     
 

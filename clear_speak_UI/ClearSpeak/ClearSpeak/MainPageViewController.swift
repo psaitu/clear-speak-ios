@@ -10,10 +10,14 @@ import UIKit
 
 class MainPageViewController: UIViewController {
 
+    @IBOutlet weak var newPauseWordBtn: UIButton!
+    @IBOutlet weak var newPitchDeckBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        newPauseWordBtn.applyDesign()
+        newPitchDeckBtn.applyDesign()
     }
     
 
